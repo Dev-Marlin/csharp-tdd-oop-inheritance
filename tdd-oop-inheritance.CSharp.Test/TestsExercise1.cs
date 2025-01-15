@@ -3,16 +3,16 @@ using NUnit.Framework;
 
 namespace tdd_oop_inheritance.CSharp.Test
 {
-    public class MyTests
+    public class TestsExercise1
     {
         [Test]
         public void TestCheckInNotLoanedBook()
         {
             Library lib = new Library();
 
-            lib.addToStock(new Book("Harry Potter"));
-            lib.addToStock(new Book("Lord of the rings"));
-            lib.addToStock(new Article("Science"));
+            lib.addToStock(new Book("Harry Potter", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
+            lib.addToStock(new Book("Lord of the rings", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
+            lib.addToStock(new Article("Science", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
             lib.addToStock(new Newspaper("Robbery somewhere"));
             lib.addToStock(new Newspaper("Its gonna rain, like.. alot..."));
 
@@ -27,9 +27,9 @@ namespace tdd_oop_inheritance.CSharp.Test
         {
             Library lib = new Library();
 
-            lib.addToStock(new Book("Harry Potter"));
-            lib.addToStock(new Book("Lord of the rings"));
-            lib.addToStock(new Article("Science"));
+            lib.addToStock(new Book("Harry Potter", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
+            lib.addToStock(new Book("Lord of the rings", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
+            lib.addToStock(new Article("Science", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
             lib.addToStock(new Newspaper("Robbery somewhere"));
             lib.addToStock(new Newspaper("Its gonna rain, like.. alot..."));
 
@@ -45,9 +45,9 @@ namespace tdd_oop_inheritance.CSharp.Test
         {
             Library lib = new Library();
 
-            lib.addToStock(new Book("Harry Potter"));
-            lib.addToStock(new Book("Lord of the rings"));
-            lib.addToStock(new Article("Science"));
+            lib.addToStock(new Book("Harry Potter", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
+            lib.addToStock(new Book("Lord of the rings", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
+            lib.addToStock(new Article("Science", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
             lib.addToStock(new Newspaper("Robbery somewhere"));
             lib.addToStock(new Newspaper("Its gonna rain, like.. alot..."));
 
@@ -62,9 +62,9 @@ namespace tdd_oop_inheritance.CSharp.Test
         {
             Library lib = new Library();
 
-            lib.addToStock(new Book("Harry Potter"));
-            lib.addToStock(new Book("Lord of the rings"));
-            lib.addToStock(new Article("Science"));
+            lib.addToStock(new Book("Harry Potter", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
+            lib.addToStock(new Book("Lord of the rings", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
+            lib.addToStock(new Article("Science", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
             lib.addToStock(new Newspaper("Robbery somewhere"));
             lib.addToStock(new Newspaper("Its gonna rain, like.. alot..."));
 
@@ -78,9 +78,9 @@ namespace tdd_oop_inheritance.CSharp.Test
         {
             Library lib = new Library();
 
-            lib.addToStock(new Book("Harry Potter"));
-            lib.addToStock(new Book("Lord of the rings"));
-            lib.addToStock(new Article("Science"));
+            lib.addToStock(new Book("Harry Potter", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
+            lib.addToStock(new Book("Lord of the rings", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
+            lib.addToStock(new Article("Science", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
             lib.addToStock(new Newspaper("Robbery somewhere"));
             lib.addToStock(new Newspaper("Its gonna rain, like.. alot..."));
 
@@ -96,9 +96,9 @@ namespace tdd_oop_inheritance.CSharp.Test
         {
             Library lib = new Library();
 
-            lib.addToStock(new Book("Harry Potter"));
-            lib.addToStock(new Book("Lord of the rings"));
-            lib.addToStock(new Article("Science"));
+            lib.addToStock(new Book("Harry Potter", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
+            lib.addToStock(new Book("Lord of the rings", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
+            lib.addToStock(new Article("Science", new MyAuthor("J. K. Rowling", "JK@hotmail.com", "www.JK.com")));
             lib.addToStock(new Newspaper("Robbery somewhere"));
             lib.addToStock(new Newspaper("Its gonna rain, like.. alot..."));
 

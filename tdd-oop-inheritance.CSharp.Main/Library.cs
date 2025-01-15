@@ -7,11 +7,6 @@ using System.Threading.Tasks;
 namespace tdd_oop_inheritance.CSharp.Main
 {
     public class Library {
-        /*
-        List<Article> articles = new List<Article>();
-        List<Book> books = new List<Book>();
-        List<Newspaper> newspapers = new List<Newspaper>();
-        */
 
         private List<Literature> literatures;
 
